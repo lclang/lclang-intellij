@@ -1,5 +1,5 @@
 <idea-plugin>
-  <id>lclang.plugin</id>
+  <id>com.github.lclang.plugin</id>
   <name>Little Cat Language</name>
   <version>1.0</version>
   <vendor url="https://levkopo.ru">levkopo</vendor>
