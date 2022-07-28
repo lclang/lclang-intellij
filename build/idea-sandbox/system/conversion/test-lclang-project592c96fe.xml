@@ -1,0 +1,8 @@
+<conversion>
+  <applied-converters>
+    <converter id="kotlin-non-jvm-source-roots" />
+  </applied-converters>
+  <project-files>
+    <f p="./.idea/workspace.xml" t="1658924214" />
+  </project-files>
+</conversion>

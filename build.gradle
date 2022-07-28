@@ -1,0 +1,39 @@
+plugins {
+    id 'org.jetbrains.intellij' version '1.7.0'
+    id 'antlr'
+}
+
+group 'com.github.lclang'
+version '0.1'
+
+sourceSets {
+    main.java.srcDirs = []
+    main.java.srcDirs += 'src/main/java/'
+    main.java.srcDirs += 'src/main/gen/'
+}
+
+// See https://github.com/JetBrains/gradle-intellij-plugin/
+intellij {
+    version = '2021.3.3'
+}
+
+repositories {
+    mavenCentral()
+}
+
+jar {
+    from {
+        configurations.runtimeClasspath.filter{ it.exists() }.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
+
+dependencies {
+    antlr 'org.antlr:antlr4:4.10.1'
+    implementation "org.antlr:antlr4-intellij-adaptor:0.1"
+}
+
+patchPluginXml {
+    changeNotes = """
+      Add change notes here.<br>
+      <em>most HTML tags may be used</em>"""
+}

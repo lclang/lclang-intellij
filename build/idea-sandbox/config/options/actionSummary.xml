@@ -1,0 +1,43 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$SelectAll">
+      <i c="4" l="1658925517111" />
+    </e>
+    <e n="$Undo">
+      <i c="1" l="1658925421348" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="18" l="1658925526431" />
+    </e>
+    <e n="EditorPaste">
+      <i c="3" l="1658925412834" />
+    </e>
+    <e n="EditorTab">
+      <i c="1" l="1658924173691" />
+    </e>
+    <e n="Run">
+      <i c="1" l="1658925513657" />
+    </e>
+    <e n="SaveAll">
+      <i c="4" l="1658925529685" />
+    </e>
+    <e n="WelcomeScreen.CreateNewProject">
+      <i c="1" l="1658924132315" />
+    </e>
+    <e n="WelcomeScreen.OpenProject">
+      <i c="1" l="1658924125485" />
+    </e>
+    <e n="com.intellij.ide.fileTemplates.actions.CreateFromTemplateAction">
+      <i c="1" l="1658924168371" />
+    </e>
+    <e n="com.intellij.openapi.ui.DialogWrapper$4">
+      <i c="1" l="1658924213737" />
+    </e>
+    <e n="com.intellij.ui.CommonActionsPanel$AddButton">
+      <i c="1" l="1658925491868" />
+    </e>
+    <e n="editRunConfigurations">
+      <i c="1" l="1658925490212" />
+    </e>
+  </component>
+</application>
