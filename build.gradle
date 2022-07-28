@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.github.lclang'
-version '0.1'
+version '1.0.2'
 
 sourceSets {
     main.java.srcDirs = []
@@ -29,11 +29,10 @@ jar {
 
 dependencies {
     antlr 'org.antlr:antlr4:4.10.1'
-    implementation "org.antlr:antlr4-intellij-adaptor:0.1"
+    implementation 'org.antlr:antlr4-intellij-adaptor:0.1'
+    implementation 'org.antlr:stringtemplate:4.0.2'
 }
 
 patchPluginXml {
-    changeNotes = """
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>"""
+    changeNotes = """Initial version"""
 }
